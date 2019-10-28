@@ -15,7 +15,7 @@ import {
   PermissionsAndroid,
 } from 'react-native';
 
-import Permissions from 'react-native-permissions';
+import {request, PERMISSIONS} from 'react-native-permissions';
 import { RNCamera as Camera } from 'react-native-camera';
 
 const PERMISSION_AUTHORIZED = 'authorized';
